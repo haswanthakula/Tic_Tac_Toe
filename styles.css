@@ -1,0 +1,31 @@
+#container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 100px 100px 100px;
+    row-gap: 10px;
+    column-gap: 10px;
+
+}
+
+.cell{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#btn{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
